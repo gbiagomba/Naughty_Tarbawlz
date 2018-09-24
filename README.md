@@ -45,7 +45,7 @@ P4ssw0rd!
 # AV Evasion Checklist
 Use the screenshot and links (the pdfs are in the pdf folder of this directory) below to help you with your assessment
 ![alt tag](https://www.nextron-systems.com/wp-content/uploads/2018/06/Screen-Shot-2018-05-12-at-11.55.11.png)
-1. hhttps://www.nextron-systems.com/2018/09/08/antivirus-event-analysis-cheat-sheet-v1-4/
+1. https://www.nextron-systems.com/2018/09/08/antivirus-event-analysis-cheat-sheet-v1-4/
 2. https://www.nextron-systems.com/wp-content/uploads/2018/09/Antivirus_Event_Analysis_CheatSheet_1.4.pdf
 3. https://www.nextron-systems.com/wp-content/uploads/2018/09/Antivirus_Event_Analysis_CheatSheet_1.5-2.pdf
 
