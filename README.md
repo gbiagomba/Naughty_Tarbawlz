@@ -1,28 +1,20 @@
 ![alt tag](https://cdn-images-1.medium.com/max/1200/1*zHmD0vnFF9phLu2LIlJJpQ.png)
 
-```
-  _   _                   _     _           _______         _                    _     _ 
- | \ | |                 | |   | |         |__   __|       | |                  | |   | |
- |  \| | __ _ _   _  __ _| |__ | |_ _   _     | | __ _ _ __| |__   __ ___      _| |___| |
- | . ` |/ _` | | | |/ _` | '_ \| __| | | |    | |/ _` | '__| '_ \ / _` \ \ /\ / / / __| |
- | |\  | (_| | |_| | (_| | | | | |_| |_| |    | | (_| | |  | |_) | (_| |\ V  V /| \__ \_|
- |_| \_|\__,_|\__,_|\__, |_| |_|\__|\__, |    |_|\__,_|_|  |_.__/ \__,_| \_/\_/ |_|___(_)
-                     __/ |           __/ |                                               
-                    |___/           |___/                                                
-```
-
 # Naughty Tar Bawl
-This folder contains a collection of encrytpted zip files (yes though not technically a tar file) that contain both non-malicious and malicious binaries from kali Linux (and other projects). The purpose of this folder and its contents is for anti-virus risk acceptance testing. 
+This folder contains a collection of encrytpted zip files (though not technically a tar file) that contain both non-malicious and malicious binaries from kali Linux (and other projects). The purpose of this folder and its contents is for anti-virus risk acceptance testing. 
 
 # Side notes: 
 ## Encryption:
-If you are wondering why I password protected the zip file, it is to prevent the AV solution you are testing from reading the contents of the archive, and removing or modifying the zip file(s) the moment you connect the thumbdrive and/or copy the files to disk. By password protecting the zip files, it makes it so that the AV solution can not identify which files are malicious and which are not unless you extra the contents.
+If you are wondering why I password protected the zip file, it is to prevent the AV solution you are testing from reading the contents of the archive, and removing or modifying the zip file(s) the moment you connect the thumbdrive and/or copy the files to disk.
 
-## NaughtyExec Directory:
-I had another compressed file but it was too large to upload to I split it into 75MB chucks. That file has even more content in it, about 1GB (870MB to be exact). You could use either the lite version if you want something quick or the heavy.
+## NaughtyExec-H Directory:
+First and foremost the H in the filename stands for "Heavy". This is because I had another compressed file (along side NaughtyExec-Lite.zip) but it was too large to upload in one chuck so I split it into 75MB chucks. That file has even more content in it, about 1GB (870MB to be exact). You could use either the lite version if you want something quick or the heavy if you want to be more thorough.
 
-## Manifesto files:
-Thse files will disclose the contents of the zip files, so you are aware of what you're extracting. I do need to recompile the files because I have made modifications to them (nothing naughty ;) because I removed senative files from the zip but did not reflect thse changes from the manifesto.
+## NaughtyExec-L Directory:
+The naughty exe and posh (ps1) zip files are stored here. Like the dash H above, the dash L here stands for lite.
+
+## Manifesto Directory:
+These files will disclose the contents of the zip files, so you are aware of what you're extracting. 
 
 # HOWTO: Usage
 All you have to do is:
@@ -36,8 +28,10 @@ All you have to do is:
 ```
 You can also make a non-encrypted version and see if the AV detects the malicious binaries inside the zip file.
 
+P.S the password to the files is below!
+
 # Zip File Password
-The zip files all share the same password! (see below):
+The zip files all share the same super secure password! (see below):
 ```
 P4ssw0rd!
 ```
@@ -50,4 +44,15 @@ Use the screenshot and links (the pdfs are in the pdf folder of this directory) 
 3. https://www.nextron-systems.com/wp-content/uploads/2018/09/Antivirus_Event_Analysis_CheatSheet_1.5-2.pdf
 
 # Got questions?
-Submit an issue and I will address your concerns there
+Submit an issue or email me at gilles(dot)infosec(at)gmail(dot)com & I will address your concerns asap
+
+```
+  _   _                   _     _           _______         _                    _     _ 
+ | \ | |                 | |   | |         |__   __|       | |                  | |   | |
+ |  \| | __ _ _   _  __ _| |__ | |_ _   _     | | __ _ _ __| |__   __ ___      _| |___| |
+ | . ` |/ _` | | | |/ _` | '_ \| __| | | |    | |/ _` | '__| '_ \ / _` \ \ /\ / / / __| |
+ | |\  | (_| | |_| | (_| | | | | |_| |_| |    | | (_| | |  | |_) | (_| |\ V  V /| \__ \_|
+ |_| \_|\__,_|\__,_|\__, |_| |_|\__|\__, |    |_|\__,_|_|  |_.__/ \__,_| \_/\_/ |_|___(_)
+                     __/ |           __/ |                                               
+                    |___/           |___/                                                
+```
