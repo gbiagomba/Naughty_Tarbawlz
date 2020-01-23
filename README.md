@@ -45,7 +45,7 @@ Use the screenshot and links (the pdfs are in the pdf folder of this directory) 
 1. https://www.nextron-systems.com/2018/09/08/antivirus-event-analysis-cheat-sheet-v1-4/
 2. https://www.nextron-systems.com/wp-content/uploads/2018/09/Antivirus_Event_Analysis_CheatSheet_1.4.pdf
 3. https://www.nextron-systems.com/wp-content/uploads/2018/09/Antivirus_Event_Analysis_CheatSheet_1.5-2.pdf
-4. https://eicar.org/?page_id=3950
+4. https://www.eicar.org/?page_id=3950
 
 # Got questions?
 Submit an issue or email me at gilles(dot)infosec(at)gmail(dot)com & I will address your concerns asap
